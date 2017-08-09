@@ -1,0 +1,9 @@
+no concrete example here
+
+this pattern is applicable when you need to add functionality to a composite of objects.
+there must be a way to travers in the composite object.
+newly add functionality is implemented in the visitor object, it's centralized
+and it's the only place you need to change.
+objects in the composite should provide functions to relieve its state for the visitor.
+visitor get those states by traversing.
+
